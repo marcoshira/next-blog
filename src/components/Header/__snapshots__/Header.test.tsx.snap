@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render and match snapshot 1`] = `
+.c2 {
+  color: inherit;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.c5 {
+  color: inherit;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c3 > img {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.c0 div {
+  margin: 4.0rem 2.4rem;
+}
+
+.c4 {
+  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 70rem;
+}
+
+.c4 .c1 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+<div>
+  <header
+    class="c0"
+  >
+    <h1
+      class="c1 c2"
+    >
+      <a
+        class="c3"
+        href="https://www.google.com.br/"
+        target="_blank"
+      >
+        <img
+          alt="blog"
+          src="https://source.unsplash.com/random/800x800"
+        />
+      </a>
+    </h1>
+    <div
+      class="c4"
+    >
+      <h1
+        class="c1 c5"
+      >
+        blog
+      </h1>
+      description
+    </div>
+  </header>
+</div>
+`;
+
+exports[`<Header /> should render with default values and match snapshot 1`] = `
+.c2 {
+  color: inherit;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.c5 {
+  color: inherit;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c3 > img {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.c0 div {
+  margin: 4.0rem 2.4rem;
+}
+
+.c4 {
+  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 70rem;
+}
+
+.c4 .c1 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+<div>
+  <header
+    class="c0"
+  >
+    <h1
+      class="c1 c2"
+    >
+      <a
+        class="c3"
+        href="https://www.google.com.br/"
+        target="_blank"
+      >
+        <img
+          alt="LogoLink"
+          src="https://source.unsplash.com/random/800x800"
+        />
+      </a>
+    </h1>
+    <div
+      class="c4"
+    >
+      <h1
+        class="c1 c5"
+      />
+      
+    </div>
+  </header>
+</div>
+`;
+
+exports[`<Header /> should render without text match snapshot 1`] = `
+.c2 {
+  color: inherit;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.c5 {
+  color: inherit;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c3 > img {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.c0 div {
+  margin: 4.0rem 2.4rem;
+}
+
+.c4 {
+  display: none;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 70rem;
+}
+
+.c4 .c1 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+<div>
+  <header
+    class="c0"
+  >
+    <h1
+      class="c1 c2"
+    >
+      <a
+        class="c3"
+        href="https://www.google.com.br/"
+        target="_blank"
+      >
+        <img
+          alt="LogoLink"
+          src="https://source.unsplash.com/random/800x800"
+        />
+      </a>
+    </h1>
+    <div
+      class="c4"
+    >
+      <h1
+        class="c1 c5"
+      />
+      description
+    </div>
+  </header>
+</div>
+`;
