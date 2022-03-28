@@ -10,15 +10,17 @@ export default {
   args: {
     blogName: blogName,
     blogDescription: 'A descrição do meu blog.',
-    logoData: {
-      ...mock,
-      text: blogName,
-    },
+    srcImg: mock.srcImg,
+    link: mock.link,
+    newTab: mock.newTab,
   },
   argTypes: {
     blogName: { type: 'string' },
     blogDescription: { type: 'string' },
+    srcImg: { type: 'string' },
+    link: { type: 'string' },
     showText: { type: 'boolean' },
+    newTab: { type: 'boolean' },
   },
 } as Meta<HeaderProps>;
 

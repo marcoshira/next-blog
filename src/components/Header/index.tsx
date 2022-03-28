@@ -1,23 +1,27 @@
 import { Heading } from '../Heading';
-import { LogoLink, LogoLinkProps } from '../LogoLink';
+import { LogoLink } from '../LogoLink';
 import * as Styled from './styles';
 
 export type HeaderProps = {
   blogName?: string;
   blogDescription?: string;
   showText?: boolean;
-  logoData: LogoLinkProps;
+  srcImg: string;
+  link?: string;
+  newTab?: boolean;
 };
 
 export const Header = ({
   blogName = '',
   blogDescription = '',
   showText = true,
-  logoData,
+  srcImg,
+  link = '/',
+  newTab = false,
 }: HeaderProps) => {
   return (
     <Styled.Wrapper>
-      <LogoLink {...logoData} />
+      <LogoLink srcImg={srcImg} text={blogName} link={link} newTab={newTab} />
       <Styled.Container showText={showText}>
         <Heading size="small">{blogName}</Heading>
         {blogDescription}

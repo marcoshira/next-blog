@@ -60,7 +60,7 @@ exports[`<Footer /> should render 1`] = `
 
 .c2 hr {
   border: none;
-  border-bottom: 0.1rem solid #DDDDDD;
+  border-bottom: 0.1rem solid #AAAAAA;
 }
 
 .c2 ul,
@@ -87,7 +87,7 @@ exports[`<Footer /> should render 1`] = `
 
 .c0 {
   text-align: center;
-  border-top: 0.2rem solid #DDDDDD;
+  border-top: 0.2rem solid #AAAAAA;
 }
 
 .c0 a {

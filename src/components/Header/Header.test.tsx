@@ -9,10 +9,9 @@ const props: HeaderProps = {
   blogName: blogName,
   blogDescription: 'description',
   showText: true,
-  logoData: {
-    ...mock,
-    text: blogName,
-  },
+  srcImg: mock.srcImg,
+  link: mock.link,
+  newTab: mock.newTab,
 };
 
 describe('<Header />', () => {
@@ -24,16 +23,18 @@ describe('<Header />', () => {
   });
 
   it('should render with default values and match snapshot', () => {
-    const { container } = renderTheme(<Header logoData={mock} />);
-    expect(
-      screen.getByRole('heading', { name: 'LogoLink' }),
-    ).toBeInTheDocument();
+    const { container } = renderTheme(<Header srcImg={mock.srcImg} />);
+    expect(screen.getByRole('link')).toHaveAttribute('href', '/');
     expect(container).toMatchSnapshot();
   });
 
   it('should render without text match snapshot', () => {
     const { container } = renderTheme(
-      <Header logoData={mock} showText={false} blogDescription="description" />,
+      <Header
+        srcImg={mock.srcImg}
+        showText={false}
+        blogDescription="description"
+      />,
     );
     expect(container).toMatchSnapshot();
     expect(screen.getByText('description')).toHaveStyleRule('display', 'none');

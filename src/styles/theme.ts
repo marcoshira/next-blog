@@ -3,7 +3,7 @@ export const theme = {
     primaryColor: '#0A1128',
     secondaryColor: 'crimson',
     white: '#FFFFFF',
-    mediumGray: '#DDDDDD',
+    mediumGray: '#AAAAAA',
     crimson: 'crimson',
     blue: 'rgb(36, 36, 209)',
     navy: '#0A1128',

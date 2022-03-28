@@ -187,11 +187,11 @@ exports[`<Header /> should render with default values and match snapshot 1`] = `
     >
       <a
         class="c3"
-        href="https://www.google.com.br/"
-        target="_blank"
+        href="/"
+        target="_self"
       >
         <img
-          alt="LogoLink"
+          alt=""
           src="https://source.unsplash.com/random/800x800"
         />
       </a>
@@ -286,11 +286,11 @@ exports[`<Header /> should render without text match snapshot 1`] = `
     >
       <a
         class="c3"
-        href="https://www.google.com.br/"
-        target="_blank"
+        href="/"
+        target="_self"
       >
         <img
-          alt="LogoLink"
+          alt=""
           src="https://source.unsplash.com/random/800x800"
         />
       </a>

@@ -73,7 +73,7 @@ describe('<HtmlContent />', () => {
 
       .c0 hr {
         border: none;
-        border-bottom: 0.1rem solid #DDDDDD;
+        border-bottom: 0.1rem solid #AAAAAA;
       }
 
       .c0 ul,
