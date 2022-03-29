@@ -17,7 +17,7 @@ export const ArticleHeader = ({
 }: ArticleHeaderProps) => {
   return (
     <Styled.Wrapper>
-      <Heading size="medium">{title}</Heading>
+      <Heading size="big">{title}</Heading>
       <p>{excerpt}</p>
       <img
         src={cover.data.attributes.url}

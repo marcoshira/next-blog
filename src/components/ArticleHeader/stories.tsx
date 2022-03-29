@@ -30,6 +30,12 @@ export const Template: Story<ArticleHeaderProps> = (args) => {
   return (
     <div>
       <ArticleHeader {...args} />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+        quis fugit. Cupiditate recusandae esse reiciendis nihil nam, asperiores
+        amet possimus neque in voluptatum expedita officia voluptas rerum
+        laborum nobis dolor.
+      </p>
     </div>
   );
 };
