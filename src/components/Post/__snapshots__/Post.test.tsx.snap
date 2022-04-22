@@ -1,0 +1,593 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Post /> should render 1`] = `
+.c5 {
+  font-size: 1.6rem;
+  color: #AAAAAA;
+  font-style: italic;
+}
+
+.c5 a {
+  color: crimson;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c5 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c3 {
+  color: inherit;
+  font-size: 4.0rem;
+  text-transform: none;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 0.1rem solid #DDDDDD;
+  padding-bottom: 4.0rem;
+  margin-bottom: 4.0rem;
+}
+
+.c2 > h1 {
+  margin-bottom: 2.4rem;
+  max-width: 80rem;
+}
+
+.c2 > p {
+  margin-top: 0;
+  max-width: 80rem;
+  font-size: calc(1.6rem + 0.4rem);
+}
+
+.c2 > img {
+  width: 100%;
+  max-width: 80rem;
+}
+
+.c2 .c4 {
+  max-width: 80rem;
+}
+
+.c2 .c4 > p {
+  margin-bottom: 0;
+}
+
+.c9 {
+  font-size: calc(1.6rem + 0.2rem);
+  line-height: 1.5;
+}
+
+.c9 p {
+  margin: 1.6rem 0;
+}
+
+.c9 a,
+.c9 a:visited,
+.c9 a:link {
+  color: crimson;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c9 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c9 code {
+  font-family: monospace;
+  color: crimson;
+  font-size: 1.6rem;
+  background: #DDDDDD;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.c9 pre {
+  background: #000000;
+  padding: 2.4rem;
+  font-family: monospace;
+  color: #FFFFFF;
+  margin: 1.6rem 0;
+  width: 100%;
+  overflow-x: auto;
+  font-size: 1.6rem;
+}
+
+.c9 pre code {
+  color: inherit;
+  background: inherit;
+}
+
+.c9 img {
+  max-width: 100%;
+}
+
+.c9 .image {
+  line-height: 0;
+  margin: 2.4rem 0;
+}
+
+.c9 .image figcaption {
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.c9 .image-style-side {
+  max-width: 50%;
+  float: right;
+  margin: 2.4rem 0;
+}
+
+.c9 hr {
+  border: none;
+  border-bottom: 0.1rem solid #DDDDDD;
+}
+
+.c9 ul,
+.c9 ol {
+  margin: 2.4rem 4.0rem;
+}
+
+.c9 .table {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.c9 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.6rem 0;
+}
+
+.c9 table td,
+.c9 table th {
+  padding: 1.6rem;
+  border: 0.1rem solid #DDDDDD;
+}
+
+.c9 blockquote {
+  border-left: 0.5rem solid crimson;
+  color: #AAAAAA;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  padding-left: 2.4rem;
+  font-style: italic;
+  margin: 2.4rem;
+}
+
+.c1 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 96rem;
+}
+
+.c6 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 80rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.c7 .c8 {
+  max-width: 80rem;
+  font-size: 1.6rem;
+}
+
+@media (max-width:768px) {
+  .c9 {
+    font-size: 2rem;
+  }
+
+  .c9 .image-style-side {
+    max-width: 100%;
+    float: none;
+    margin: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c1 {
+    padding: 0 calc(3.2rem / 2);
+  }
+}
+
+@media (max-width:768px) {
+  .c6 {
+    padding: 0 calc(3.2rem / 2);
+  }
+}
+
+<div>
+  <article
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h1
+          class="c3"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor fermentum nisl, ut pharetra leo lacinia et. Etiam nec urna sed orci bibendum sodales.
+        </p>
+        <img
+          alt="1920x1080 1"
+          src="https://res.cloudinary.com/dr5ot2zqr/image/upload/v1648156169/1920x1080_6aaecb929e.jpg"
+        />
+        <div
+          class="c4 c5"
+        >
+          <p>
+            <span>
+              Por 
+            </span>
+            <a
+              href="/author/julia-temari"
+            >
+              Júlia Temari
+            </a>
+            <span
+              class="separator"
+            >
+               | 
+            </span>
+            <time
+              datetime="2022-03-25T18:18:34.944Z"
+            >
+              25/03/2022 15:18
+            </time>
+            <span
+              class="separator"
+            >
+               | 
+            </span>
+            <span>
+              Editado em:
+               
+              <time
+                datetime="2022-03-27T20:41:54.493Z"
+              >
+                27/03/2022 17:41
+              </time>
+            </span>
+            <span
+              class="separator"
+            >
+               | 
+            </span>
+            <span
+              class="categories"
+            >
+              <span>
+                Categorias: 
+              </span>
+              <span>
+                <a
+                  href="/category/java-script"
+                >
+                  JavaScript
+                </a>
+                <span>
+                  , 
+                </span>
+              </span>
+              <span>
+                <a
+                  href="/category/react"
+                >
+                  React
+                </a>
+              </span>
+            </span>
+            <span
+              class="separator"
+            >
+               | 
+            </span>
+            <span
+              class="tags"
+            >
+              <span>
+                Tags: 
+              </span>
+              <span>
+                <a
+                  href="/tag/use-context"
+                >
+                  UseContext
+                </a>
+                <span>
+                  , 
+                </span>
+              </span>
+              <span>
+                <a
+                  href="/tag/use-state"
+                >
+                  UseState
+                </a>
+              </span>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c6"
+    >
+      <div
+        class="c7"
+      >
+        <div
+          class="c8 c9"
+        >
+          <p>
+            We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.
+          </p>
+          <figure
+            class="table"
+          >
+            <table>
+              <thead>
+                <tr>
+                  <th>
+                    Title 1
+                  </th>
+                  <th>
+                    Title 2
+                  </th>
+                  <th>
+                    Title 3
+                  </th>
+                  <th>
+                    Title 4
+                  </th>
+                  <th>
+                    Title 5
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    Content 1
+                  </td>
+                  <td>
+                    Content 2
+                  </td>
+                  <td>
+                    Content 3
+                  </td>
+                  <td>
+                    Content 3
+                  </td>
+                  <td>
+                    Content 3
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Content 1
+                  </td>
+                  <td>
+                    Content 2
+                  </td>
+                  <td>
+                    Content 3
+                  </td>
+                  <td>
+                    Content 3
+                  </td>
+                  <td>
+                    Content 3
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Content 1
+                  </td>
+                  <td>
+                    Content 2
+                  </td>
+                  <td>
+                    Content 3
+                  </td>
+                  <td>
+                    Content 3
+                  </td>
+                  <td>
+                    Content 3
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </figure>
+          <blockquote>
+            <p>
+              <span
+                style="background-color:rgb(255,255,255);color:rgb(0,0,0);"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis nisl sagittis lectus ornare aliquet. Fusce faucibus, ex quis facilisis congue, magna elit congue nulla,
+              </span>
+            </p>
+          </blockquote>
+          <p>
+             
+          </p>
+          <figure
+            class="image"
+          >
+            <img
+              src="https://source.unsplash.com/random/800x800"
+            />
+          </figure>
+          <p>
+             
+          </p>
+          <figure
+            class="image image-style-side"
+          >
+            <img
+              alt="imagem 9"
+              src="https://res.cloudinary.com/dr5ot2zqr/image/upload/v1647892277/800x800_a1b3864dfd.jpg"
+            />
+          </figure>
+          <p>
+            <span
+              style="background-color:rgb(255,255,255);color:rgb(0,0,0);"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis nisl sagittis lectus ornare aliquet. Fusce faucibus. Imagem ao lado: 
+            </span>
+             
+          </p>
+          <p>
+             
+          </p>
+          <p>
+             
+          </p>
+          <p>
+            <span
+              style="background-color:rgb(255,255,255);color:rgb(0,0,0);"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis nisl sagittis lectus ornare aliquet. Fusce faucibus, ex quis facilisis congue, magna elit congue nulla, 
+            </span>
+            Teste de imagem centralizada
+          </p>
+          <p>
+             
+          </p>
+          <figure
+            class="image"
+          >
+            <img
+              alt="imagem 9"
+              src="https://res.cloudinary.com/dr5ot2zqr/image/upload/v1647892277/800x800_a1b3864dfd.jpg"
+            />
+          </figure>
+          <p>
+            <a
+              href="https://google.com.br"
+            >
+              Teste de link
+            </a>
+             
+          </p>
+          <p>
+            <span
+              style="background-color:rgb(255,255,255);color:rgb(0,0,0);"
+            >
+              <i>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis nisl sagittis lectus ornare aliquet. Fusce faucibus, ex quis facilisis congue, magna elit congue nulla,
+              </i>
+            </span>
+          </p>
+          <p>
+            <span
+              style="background-color:rgb(255,255,255);color:rgb(0,0,0);"
+            >
+              <strong>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis nisl sagittis lectus ornare aliquet.
+              </strong>
+            </span>
+          </p>
+          <p>
+            <code>
+              <strong>
+                Teste de código asdasd asad
+              </strong>
+            </code>
+          </p>
+          <pre>
+            <code
+              class="language-plaintext"
+            >
+              import { PostMetadata } from '../../shared-types/postAttributes';
+import { ArticleHeader } from '../ArticleHeader';
+import { HtmlContent } from '../HtmlContent';
+import * as Styled from './styles';
+
+export type PostProps = PostMetadata;
+
+export const Post = ({ attributes }: PostProps) =&gt; {
+  return (
+    &lt;Styled.Wrapper&gt;
+      &lt;ArticleHeader {...attributes} /&gt;
+      &lt;Styled.Content&gt;
+        &lt;HtmlContent html={attributes.content} /&gt;
+      &lt;/Styled.Content&gt;
+    &lt;/Styled.Wrapper&gt;
+  );
+};
+            </code>
+          </pre>
+          <p>
+            <strong>
+              Teste de vídeo
+            </strong>
+          </p>
+          <iframe
+            height="315"
+            src="https://www.youtube.com/embed/heRRKDQepy8"
+            width="560"
+          >
+            &lt;/oembed&gt;&lt;/figure" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+`;

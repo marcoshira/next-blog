@@ -47,4 +47,8 @@ export const theme = {
     xhuge: '6.4rem',
     maxWidth: '80rem',
   },
+  sizes: {
+    max: '96rem',
+    content: '80rem',
+  },
 } as const;
