@@ -96,7 +96,7 @@ exports[`<ArticleMeta /> should format date without updatedAt 1`] = `
 </div>
 `;
 
-exports[`<ArticleMeta /> should match snapshot 1`] = `
+exports[`<ArticleMeta /> should render without data and match snapshot 1`] = `
 .c0 {
   font-size: 1.6rem;
   color: #AAAAAA;
@@ -121,19 +121,9 @@ exports[`<ArticleMeta /> should match snapshot 1`] = `
     class="c0"
   >
     <p>
-      <span>
-        Por 
-      </span>
-      <a
-        href="/author/luisa-santiago"
-      >
-        Luísa Santiago
-      </a>
-      <span
-        class="separator"
-      >
-         | 
-      </span>
+      <span />
+      <span />
+      <span />
       <time
         datetime="2022-03-25T18:28:16.052Z"
       >

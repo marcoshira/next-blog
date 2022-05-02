@@ -44,4 +44,8 @@ a{
   overflow-y: auto;
 }
 
+iframe{
+  max-width: 100%;
+}
+
 `;

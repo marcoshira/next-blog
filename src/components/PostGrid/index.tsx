@@ -1,23 +1,19 @@
 import * as Styled from './styles';
 import { PostCard } from '../PostCard';
-import { PostsProps } from '../../shared-types/postAttributes';
+import { PostsMetadata } from '../../shared-types/postAttributes';
 
-export type PostGridProps = PostsProps;
+export type PostGridProps = PostsMetadata;
 
-export const PostGrid = ({ posts }: PostGridProps) => {
+export const PostGrid = ({ data }: PostGridProps) => {
   return (
     <Styled.Wrapper>
-      {posts.data.length === 0 && (
+      {data.length === 0 && (
         <Styled.NotFound>Nenhum post encontrado</Styled.NotFound>
       )}
-      <Styled.Post>
-        {posts.data.length > 0 &&
-          posts.data.map((post) => (
-            <div key={post.id}>
-              <PostCard {...post.attributes} />
-            </div>
-          ))}
-      </Styled.Post>
+      <Styled.Grid>
+        {data.length > 0 &&
+          data.map((post) => <PostCard key={post.id} {...post.attributes} />)}
+      </Styled.Grid>
     </Styled.Wrapper>
   );
 };

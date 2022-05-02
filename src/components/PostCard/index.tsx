@@ -15,7 +15,11 @@ export const PostCard = ({ slug, cover, title, excerpt }: PostCardProps) => {
     <Styled.Wrapper>
       <Link href={`/post/${slug}`}>
         <a>
-          <Styled.Cover src={cover.data.attributes.url} alt={title} />
+          {cover.data === null ? (
+            <span></span>
+          ) : (
+            <Styled.Cover src={cover.data.attributes.url} alt={title} />
+          )}
           <Heading as="h3" size="small">
             {title}
           </Heading>

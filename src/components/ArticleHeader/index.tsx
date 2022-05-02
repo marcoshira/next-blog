@@ -19,10 +19,15 @@ export const ArticleHeader = ({
     <Styled.Wrapper>
       <Heading size="big">{title}</Heading>
       <p>{excerpt}</p>
-      <img
-        src={cover.data.attributes.url}
-        alt={cover.data.attributes.alternativeText}
-      ></img>
+      {cover.data === null ? (
+        <span></span>
+      ) : (
+        <img
+          src={cover.data.attributes.url}
+          alt={cover.data.attributes.alternativeText}
+        ></img>
+      )}
+
       <ArticleMeta
         author={author}
         tags={tags}

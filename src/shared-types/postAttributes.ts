@@ -1,3 +1,4 @@
+import { PostCardProps } from '../components/PostCard';
 import { Author } from './author';
 import { Category } from './category';
 import { Tag } from './tag';
@@ -11,21 +12,21 @@ export type PostsMetadata = {
 };
 
 export type PostMetadata = {
-  id?: string;
+  id: string;
   attributes: PostAttributes;
 };
 
-export type PostAttributes = {
-  title: string;
-  slug: string;
-  excerpt: string;
+export type PostAttributes = PostCardProps & {
+  // title: string;
+  // slug: string;
+  // excerpt: string;
+  // cover: MetadataImage;
   allowComments: boolean;
   createdAt: string;
   updatedAt: string;
   author: Author;
   tags: Tag;
   categories: Category;
-  cover: MetadataImage;
   content: string;
 };
 

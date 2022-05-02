@@ -5,7 +5,7 @@ import mock from './mock';
 export default {
   title: 'PostGrid',
   component: PostGrid,
-  args: mock,
+  args: mock.posts,
 } as Meta<PostGridProps>;
 
 export const Template: Story<PostGridProps> = (args) => {

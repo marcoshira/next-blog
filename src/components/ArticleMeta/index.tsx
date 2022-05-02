@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Author } from '../../shared-types/author';
 import { Category } from '../../shared-types/category';
 import { Tag } from '../../shared-types/tag';
@@ -44,36 +45,46 @@ export const ArticleMeta = ({
   return (
     <Styled.Wrapper>
       <p>
-        <span>Por </span>
-        <a href={`/author/${author.data.attributes.slug}`}>
-          {author.data.attributes.displayName}
-        </a>
-        <span className="separator"> | </span>
+        {author.data === null ? <span></span> : <span>Por </span>}
+        {author.data === null ? (
+          <span></span>
+        ) : (
+          <Link href={`/author/${author.data.attributes.slug}`}>
+            <a>{author.data.attributes.displayName}</a>
+          </Link>
+        )}
+        {author.data === null ? (
+          <span></span>
+        ) : (
+          <span className="separator"> | </span>
+        )}
         <time dateTime={createdAt}>{formatDate(createdAt)}</time>
         {updateShow(createdAt, updatedAt)}
-        <span className="separator"> | </span>
+        {categories.data.length > 0 && <span className="separator"> | </span>}
         <span className="categories">
-          <span>Categorias: </span>
+          {categories.data.length > 0 && <span>Categorias: </span>}
           {categories.data.map((category) => {
             return (
               <span key={`article-meta-cat-${category.id}`}>
-                <a href={`/category/${category.attributes.slug}`}>
-                  {category.attributes.displayName}
-                </a>
+                <Link href={`/category/${category.attributes.slug}`}>
+                  <a>{category.attributes.displayName}</a>
+                </Link>
                 {comma(categories.data, category)}
               </span>
             );
           })}
         </span>
-        <span className="separator"> | </span>
+        {tags.data.length > 0 && <span className="separator"> | </span>}
+
         <span className="tags">
-          <span>Tags: </span>
+          {tags.data.length > 0 && <span>Tags: </span>}
+
           {tags.data.map((tag) => {
             return (
               <span key={`article-meta-cat-${tag.id}`}>
-                <a href={`/tag/${tag.attributes.slug}`}>
-                  {tag.attributes.displayName}
-                </a>
+                <Link href={`/tag/${tag.attributes.slug}`}>
+                  <a>{tag.attributes.displayName}</a>
+                </Link>
                 {comma(tags.data, tag)}
               </span>
             );

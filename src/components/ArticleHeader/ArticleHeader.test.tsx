@@ -3,6 +3,12 @@ import { renderTheme } from '../../styles/render-theme';
 import { ArticleHeader, ArticleHeaderProps } from '.';
 import mock from './mock';
 
+const mock0 = {
+  cover: {
+    data: null,
+  },
+};
+
 const props: ArticleHeaderProps = mock.attributes;
 
 describe('<ArticleHeader />', () => {
@@ -29,5 +35,13 @@ describe('<ArticleHeader />', () => {
       'src',
       'https://res.cloudinary.com/dr5ot2zqr/image/upload/v1648156169/1920x1080_6aaecb929e.jpg',
     );
+  });
+
+  it('should render withou data and match snapshot', () => {
+    const { container } = renderTheme(
+      <ArticleHeader {...props} cover={mock0.cover} />,
+    );
+
+    expect(container).toMatchSnapshot();
   });
 });

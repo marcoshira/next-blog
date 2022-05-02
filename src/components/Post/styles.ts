@@ -2,13 +2,11 @@ import styled, { css } from 'styled-components';
 import { Container as Html } from '../HtmlContent/styles';
 
 export const Wrapper = styled.article`
-  ${({ theme }) => css`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-  `}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 `;
 
 export const Content = styled.div`

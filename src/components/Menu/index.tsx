@@ -9,7 +9,7 @@ export type MenuPropsLinks = {
   id: string;
   link: string;
   text: string;
-  newTab?: boolean;
+  newTab: boolean;
 };
 
 export type MenuProps = {

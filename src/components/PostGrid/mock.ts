@@ -54,7 +54,7 @@ export default {
             data: {
               id: '14',
               attributes: {
-                url: 'https://res.cloudinary.com/dr5ot2zqr/image/upload/v1648156169/1920x1080_6aaecb929e.jpg',
+                url: 'https://images.unsplash.com/photo-1649940277866-6de246635a96?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1MDg0OTY1OQ&ixlib=rb-1.2.1&q=80&w=800',
                 alternativeText: '1920x1080 1',
               },
             },

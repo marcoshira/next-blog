@@ -75,3 +75,71 @@ exports[`<PostCard /> should render 1`] = `
   </div>
 </div>
 `;
+
+exports[`<PostCard /> should render without cover 1`] = `
+.c2 {
+  color: inherit;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c0 .c1 {
+  margin: 0;
+  margin-top: 1.6rem;
+  margin-bottom: 0.8rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0:hover .c1 {
+  color: crimson;
+}
+
+.c0 img {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0:hover img {
+  opacity: 0.6;
+}
+
+.c0:hover p {
+  color: #AAAAAA;
+}
+
+.c3 {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <a
+      href="/post/teste-1"
+    >
+      <span />
+      <h3
+        class="c1 c2"
+      >
+        Teste 1
+      </h3>
+      <p
+        class="c3"
+      >
+        Teste de post.
+      </p>
+    </a>
+  </div>
+</div>
+`;

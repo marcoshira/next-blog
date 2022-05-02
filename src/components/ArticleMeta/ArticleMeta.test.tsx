@@ -4,6 +4,12 @@ import { ArticleMeta, ArticleMetaProps } from '.';
 
 import mock from './mock';
 
+const mock0 = {
+  author: {
+    data: null,
+  },
+};
+
 const props: ArticleMetaProps = mock;
 
 describe('<ArticleMeta />', () => {
@@ -51,8 +57,10 @@ describe('<ArticleMeta />', () => {
     );
   });
 
-  it('should match snapshot', () => {
-    const { container } = renderTheme(<ArticleMeta {...props} />);
+  it('should render without data and match snapshot', () => {
+    const { container } = renderTheme(
+      <ArticleMeta {...props} author={mock0.author} />,
+    );
     expect(container).toMatchSnapshot();
   });
 });
