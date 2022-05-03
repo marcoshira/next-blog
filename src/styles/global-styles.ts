@@ -17,7 +17,8 @@ html {
 body{
   font-size: 1.6rem;
   font-family: ${({ theme }) => theme.font.family.default};
-
+  background: ${({ theme }) => theme.colors.white};
+  color: ${({ theme }) => theme.colors.black}
 }
 
 h1, h2, h3, h4, h5, h6{

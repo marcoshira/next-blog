@@ -49,7 +49,7 @@ export const Logo = styled.div`
 
 const buttonChanger = (menuVisible: boolean, theme: DefaultTheme) => css`
   left: ${menuVisible ? '26rem' : '2rem'};
-  color: ${menuVisible ? theme.colors.crimson : theme.colors.black};
+  color: ${menuVisible ? theme.colors.white : theme.colors.black};
   background: ${menuVisible ? theme.colors.black : 'inherit'};
 `;
 

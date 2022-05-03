@@ -3,6 +3,7 @@ import { Footer } from '../../components/Footer';
 import { GoTop } from '../../components/GoTop';
 import { Header } from '../../components/Header';
 import { Menu } from '../../components/Menu';
+import { ToggleTheme } from '../../components/ToggleTheme';
 import { Settings } from '../../shared-types/settings';
 import * as Styled from './styles';
 
@@ -22,6 +23,7 @@ export const BaseTemplate = ({
 
   return (
     <Styled.Wrapper>
+      <ToggleTheme />
       <Menu
         menuLink={attributes.menuLink}
         blogName={attributes.blogName}
@@ -42,7 +44,7 @@ export const BaseTemplate = ({
               type="search"
               placeholder="Procurar"
               name="q"
-              defaultValue={router.query.q}
+              defaultValue={router?.query?.q || ''}
             />
           </form>
         </Styled.SearchContainer>
