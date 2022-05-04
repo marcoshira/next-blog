@@ -4,34 +4,6 @@ import { GRAPHQL_FRAGMENTS } from './fragments';
 export const GRAPHQL_QUERY = gql`
   ${GRAPHQL_FRAGMENTS}
 
-  # query GET_ALL {
-  #   setting {
-  #     data {
-  #       attributes {
-  #         ...settings
-  #       }
-  #     }
-  #   }
-  #   posts {
-  #     data {
-  #       id
-  #       attributes {
-  #         ...posts
-  #       }
-  #     }
-  #   }
-  # }
-
-  # query GET_SETTINGS {
-  #   setting {
-  #     data {
-  #       attributes {
-  #         ...settings
-  #       }
-  #     }
-  #   }
-  # }
-
   query GET_POSTS(
     $categorySlug: String
     $postSlug: String
@@ -50,7 +22,11 @@ export const GRAPHQL_QUERY = gql`
         author: { slug: { eq: $authorSlug } }
         tags: { slug: { eq: $tagSlug } }
         categories: { slug: { eq: $categorySlug } }
-        title: { contains: $postSearch }
+        or: [
+          { title: { contains: $postSearch } }
+          { content: { contains: $postSearch } }
+          { excerpt: { contains: $postSearch } }
+        ]
       }
     ) {
       data {

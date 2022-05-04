@@ -38,7 +38,10 @@ export const ToggleTheme = () => {
           defaultChecked={checked}
         />
         <Styled.Slider>
-          <Styled.IconContainer defaultChecked={checked}>
+          <Styled.IconContainer
+            defaultChecked={checked}
+            aria-label="Icon Container"
+          >
             {checked ? <Sun /> : <Moon />}
           </Styled.IconContainer>
         </Styled.Slider>

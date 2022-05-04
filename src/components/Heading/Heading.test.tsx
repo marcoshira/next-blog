@@ -1,6 +1,6 @@
 import { screen } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
 import { Heading } from '.';
+import { BlogThemeProvider } from '../../contexts/BlogThemeContext';
 import { renderTheme } from '../../styles/render-theme';
 import { theme } from '../../styles/theme';
 
@@ -24,9 +24,9 @@ describe('<Heading />', () => {
     });
 
     rerender(
-      <ThemeProvider theme={theme}>
+      <BlogThemeProvider>
         <Heading size="medium">texto</Heading>
-      </ThemeProvider>,
+      </BlogThemeProvider>,
     );
 
     expect(heading).toHaveStyle({
@@ -34,9 +34,9 @@ describe('<Heading />', () => {
     });
 
     rerender(
-      <ThemeProvider theme={theme}>
+      <BlogThemeProvider>
         <Heading size="big">texto</Heading>
-      </ThemeProvider>,
+      </BlogThemeProvider>,
     );
 
     expect(heading).toHaveStyle({
@@ -44,9 +44,9 @@ describe('<Heading />', () => {
     });
 
     rerender(
-      <ThemeProvider theme={theme}>
+      <BlogThemeProvider>
         <Heading size="huge">texto</Heading>
-      </ThemeProvider>,
+      </BlogThemeProvider>,
     );
 
     expect(heading).toHaveStyle({
